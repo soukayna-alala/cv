@@ -1,0 +1,11 @@
+@import "variables";
+
+
+html,
+body {
+  font-family: $body-font-family;
+  color: $primary-color;
+  font-size: $base-font-size;
+  line-height: normal;
+  font-weight: 300;
+}

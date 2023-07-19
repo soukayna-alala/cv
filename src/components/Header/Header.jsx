@@ -1,7 +1,11 @@
 import styles from "./Header.module.scss";
+import { EMAIL, JOB_TITLE, NAME } from "./constants.js";
 
 export function Header() {
-  const { text } = styles;
-
-  return <p className={text}>Header Component</p>;
+  return (
+    <div>
+      <h1>{NAME}</h1>
+      <h2>{JOB_TITLE}</h2>
+    </div>
+  );
 }

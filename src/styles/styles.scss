@@ -1,4 +1,6 @@
 @import '/node_modules/reset-css/sass/reset';
 @import '/node_modules/roboto-fontface/css/roboto/roboto-fontface.css';
 
+//common
+@import "global";
 @import 'typography';

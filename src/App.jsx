@@ -5,8 +5,6 @@ function App() {
   return (
     <div>
       <Header />
-      app component
-      <Header />
       <Profile />
     </div>
   );

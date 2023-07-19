@@ -1,0 +1,11 @@
+@import "variables";
+
+body {
+  width: $container-width;
+
+  @media screen {
+    padding: $section-spacer-lg;
+    box-shadow: 0 0 $section-spacer-md rgba(0, 0, 0, 0.5);
+    margin: 1cm auto;
+  }
+}

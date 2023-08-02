@@ -1,12 +1,17 @@
 import { Header } from "./components/Header/Header.jsx";
 import { Profile } from "./components/Profile/Profile.jsx";
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      {/*<Profile />*/}
-    </div>
+      <div className={styles.gridContainer}>
+        <div>
+          <Profile />
+        </div>
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,8 @@
+@import "./styles/_variables";
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  column-gap: 5%;
+  margin-bottom: $section-spacer-lg;
+}

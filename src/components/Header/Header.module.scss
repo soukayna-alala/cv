@@ -1,3 +1,17 @@
-.text {
-  background: blue;
+@import "../../styles/variables";
+
+.header {
+  margin-bottom: $section-spacer-lg;
+}
+
+.avatar {
+  height: 2.9cm;
+  border-radius: 100%;
+}
+
+.list {
+  margin: $section-spacer-sm 0 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: $section-spacer-sm;
 }

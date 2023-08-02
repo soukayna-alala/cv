@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+@import "../../styles/colors";
+
+.item {
+  margin: 0.05cm 0 0;
+}
+
+.icon {
+  width: $section-spacer-sm;
+  margin-right: 0.2cm;
+  color: $cello;
+}

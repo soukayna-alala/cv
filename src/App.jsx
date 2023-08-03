@@ -3,6 +3,7 @@ import { Profile } from "./components/Profile/Profile.jsx";
 import styles from "./App.module.scss";
 import { Skills } from "./components/Skills/Skills";
 import { CodeSamples } from "./components/CodeSamples/CodeSamples";
+import { FindMeOnline } from "./components/FindMeOnline/FindMeOnline";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <div>
           <CodeSamples />
+          <FindMeOnline />
         </div>
       </div>
     </>

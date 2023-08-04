@@ -5,6 +5,7 @@ import { Skills } from "./components/Skills/Skills";
 import { CodeSamples } from "./components/CodeSamples/CodeSamples";
 import { FindMeOnline } from "./components/FindMeOnline/FindMeOnline";
 import { Interests } from "./components/Interests/Interests";
+import { Languages } from "./components/Languages/Languages";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <FindMeOnline />
         </div>
       </div>
+      <Languages />
       <Interests />
     </>
   );

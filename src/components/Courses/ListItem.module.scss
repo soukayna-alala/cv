@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+
+.item {
+  margin-bottom: $section-spacer-lg;
+}
+
+.logo {
+  max-width: 1cm;
+}
+
+.icon {
+  width: $section-spacer-sm;
+  margin-right: 0.2cm;
+  color: $cello;
+}
+
+.titleContainer {
+  grid-template-columns: 1cm auto;
+  column-gap: $section-spacer-sm;
+  margin-bottom: $section-spacer-sm;
+}
+
+.title {
+  grid-template-columns: auto auto;
+  align-items: flex-end;
+}
+
+.copy {
+  margin: 0.1cm 0 0;
+}
+
+.dates {
+  color: $secondary-color;
+}

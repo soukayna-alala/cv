@@ -6,6 +6,7 @@ import { CodeSamples } from "./components/CodeSamples/CodeSamples";
 import { FindMeOnline } from "./components/FindMeOnline/FindMeOnline";
 import { Interests } from "./components/Interests/Interests";
 import { Languages } from "./components/Languages/Languages";
+import { Courses } from "./components/Courses/Courses";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <FindMeOnline />
         </div>
       </div>
+      <Courses />
       <Languages />
       <Interests />
     </>

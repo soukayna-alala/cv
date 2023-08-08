@@ -1,4 +1,4 @@
-export const LIST = [
+export const DATA = [
   {
     id: 1,
     title: "CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)",

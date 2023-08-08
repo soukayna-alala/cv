@@ -1,6 +1,6 @@
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import avatarSrc from "../../assets/avatar.jpg";
-import { LinksListItem } from "../LinksListItem/LinksListItem.jsx";
+import { LinksListItem } from "../shared/LinksListItem/LinksListItem.jsx";
 import styles from "./Header.module.scss";
 import { EMAIL, JOB_TITLE, NAME } from "./constants.js";
 

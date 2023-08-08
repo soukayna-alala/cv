@@ -1,5 +1,5 @@
 import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
-import { LinksListItem } from "../LinksListItem/LinksListItem";
+import { LinksListItem } from "../shared/LinksListItem/LinksListItem";
 
 export const CodeSamples = () => {
   const username = "soukayna-alala";

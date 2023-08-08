@@ -1,5 +1,4 @@
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
-import avatarSrc from "../../assets/avatar.jpg";
 import { LinksListItem } from "../shared/LinksListItem/LinksListItem.jsx";
 import styles from "./Header.module.scss";
 import { EMAIL, JOB_TITLE, NAME } from "./constants.js";
@@ -39,7 +38,7 @@ export const Header = () => {
         </ul>
       </div>
 
-      <img className={avatar} src={avatarSrc} alt="avatar image" />
+      <img className={avatar} src={"./avatar.jpg"} alt="avatar image" />
     </header>
   );
 };

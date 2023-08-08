@@ -1,5 +1,4 @@
 import styles from "../../Courses/ListItem.module.scss";
-import itemLogo from "../../../assets/courses/udemy.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 
@@ -7,7 +6,7 @@ export const ListItem = (props) => {
   return (
     <li className={styles.item} key={props.id}>
       <div className={`grid ${styles.titleContainer}`}>
-        <img className={styles.logo} src={itemLogo} alt={"udemy logo"} />
+        <img className={styles.logo} src={props.logo} alt={props.logo} />
         <div>
           <div className={`grid ${styles.title} justifySpaceBetween`}>
             <h4>{props.title}</h4>

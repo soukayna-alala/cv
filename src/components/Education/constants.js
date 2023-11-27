@@ -21,4 +21,19 @@ export const DATA = [
     description:
       "I.T, Science, Maths, Physics, English, French, History, Philosophy, Arabic",
   },
+  {
+    id: 4,
+    title: "Tariq Iban Ziyad Secondary School (Morocco)",
+    logo: "./education/tariq-iban-ziyad-school.png",
+    dates: { from: "Sep 2011", to: "June 2016" },
+    description:
+      "I.T, Science, Maths, Physics, English, French, History, Philosophy, Arabic",
+  },
+  {
+    id: 5,
+    title: "Dutch certificate",
+    logo: "./education/netherland-gv-logo.jpg",
+    dates: { from: "July 2018", to: "July 2018" },
+    description: "Dutch speaking, reading and Knowledge of Dutch Society",
+  },
 ];

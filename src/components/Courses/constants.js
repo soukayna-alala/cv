@@ -1,7 +1,7 @@
 export const DATA = [
   {
     id: 1,
-    title: "Javascript: Introduction",
+    title: "Javascript: Introduction at Media Training",
     logo: "./courses/media-training-logo.png",
     dates: { from: "Aug 2023", to: "Aug 2023" },
     description:

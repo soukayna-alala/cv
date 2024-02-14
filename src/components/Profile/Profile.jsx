@@ -6,8 +6,8 @@ export const Profile = () => {
       <h3>Profile</h3>
       <p>
         Aspiring london based <strong>{JOB_TITLE}</strong> seeking new role.
-        Familiar with git source control, UX principles. Open to remote & hybrid
-        roles.
+        <br />
+        Open to both remote &amp; hybrid roles.
       </p>
     </div>
   );

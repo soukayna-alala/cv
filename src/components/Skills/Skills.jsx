@@ -2,18 +2,18 @@ import styles from "./Skills.module.scss";
 
 export const Skills = () => {
   const skills = [
-    "HTML5",
-    "CSS3",
-    "Media Queries",
-    "JavaScript",
     "React",
-    "Typescript",
     "React Hook Form",
     "React Hooks",
+    "Typescript",
+    "JavaScript",
+    "HTML",
+    "HTML Emails",
+    "CSS",
+    "Media Queries",
     "Git",
     "Bootstrap",
-    "SCSS",
-    "Vite",
+    "Vite.",
   ];
 
   return (

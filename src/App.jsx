@@ -10,16 +10,23 @@ import { Courses } from "./components/Courses/Courses";
 import { Education } from "./components/Education/Education";
 
 function App() {
+  const { gridContainer } = styles;
   return (
     <>
       <Header />
-      <div className={styles.gridContainer}>
+      <div className={gridContainer}>
         <div>
           <Profile />
-          <Skills />
         </div>
         <div>
           <CodeSamples />
+        </div>
+      </div>
+      <div className={gridContainer}>
+        <div>
+          <Skills />
+        </div>
+        <div>
           <FindMeOnline />
         </div>
       </div>

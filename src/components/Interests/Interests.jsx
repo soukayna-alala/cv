@@ -5,8 +5,8 @@ export const Interests = () => {
     <div>
       <h3>Interests</h3>
       <p className={styles.copy}>
-        Front end web development, learning new technologies, travelling,
-        cinema.
+        Frontend development, learning new technologies, learning new languages,
+        reading books, engraving.
       </p>
     </div>
   );

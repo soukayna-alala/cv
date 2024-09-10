@@ -8,10 +8,17 @@
   max-width: 1cm;
 }
 
-.icon {
+.calendar {
   width: $section-spacer-sm;
   margin-right: 0.2cm;
   color: $cello;
+}
+
+.icon {
+  width: 0.8cm;
+  height: 0.8cm;
+  align-items: center;
+  margin: auto;
 }
 
 .titleContainer {

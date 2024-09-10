@@ -38,7 +38,7 @@ export const Header = () => {
         </ul>
       </div>
 
-      <img className={avatar} src={"./avatar.jpg"} alt="avatar image" />
+      <img className={avatar} src={"my-picture.jpg"} alt="avatar image" />
     </header>
   );
 };

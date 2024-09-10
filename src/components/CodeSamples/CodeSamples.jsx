@@ -10,11 +10,6 @@ export const CodeSamples = () => {
       icon: brands("github"),
       label: github,
     },
-    {
-      href: `https://${github}/star-wars-react-challenge`,
-      icon: brands("github"),
-      label: "Star Wars React challenge",
-    },
   ];
 
   return (

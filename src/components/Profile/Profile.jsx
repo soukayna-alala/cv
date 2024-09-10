@@ -5,7 +5,7 @@ export const Profile = () => {
     <div>
       <h3>Profile</h3>
       <p>
-        Aspiring london based <strong>{JOB_TITLE}</strong> seeking new role.
+        <strong>{JOB_TITLE}</strong> based in London seeking new role.
         <br />
         Open to both remote &amp; hybrid roles.
       </p>

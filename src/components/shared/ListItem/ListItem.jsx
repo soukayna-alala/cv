@@ -6,13 +6,18 @@ export const ListItem = (props) => {
   return (
     <li className={styles.item} key={props.id}>
       <div className={`grid ${styles.titleContainer}`}>
-        <img className={styles.logo} src={props.logo} alt={props.logo} />
+        {props.hasIcon ? (
+          <FontAwesomeIcon className={styles.icon} icon={props.logo} />
+        ) : (
+          <img className={styles.logo} src={props.logo} alt={props.logo} />
+        )}
+
         <div>
           <div className={`grid ${styles.title} justifySpaceBetween`}>
             <h4>{props.title}</h4>
             <div>
               <FontAwesomeIcon
-                className={styles.icon}
+                className={styles.calendar}
                 icon={regular("calendar-alt")}
               />
               <strong className={styles.dates}>

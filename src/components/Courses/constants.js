@@ -15,7 +15,7 @@ export const DATA = [
     title: "Learn React.js from scratch by Maximilian Schwarzmüller",
     hasIcon: true,
     logo: brands("react"),
-    dates: { from: "Aug 2022", to: "Sep 2023" },
+    dates: { from: "Aug 2022", to: "Dec 2022" },
     description: "React, Hooks, Redux, React Router, Next.js",
   },
 

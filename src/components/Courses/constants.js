@@ -6,7 +6,7 @@ export const DATA = [
     title: "React 18: Intermediate Topics by Mosh Hamedani",
     hasIcon: true,
     logo: brands("react"),
-    dates: { from: "Aug 2022", to: "Sep 2023" },
+    dates: { from: "Jan 2023", to: "May 2024" },
     description:
       "Managing Component State, API, Building a Video Game Discovery App.",
   },
@@ -15,7 +15,7 @@ export const DATA = [
     title: "Learn React.js from scratch by Maximilian Schwarzmüller",
     hasIcon: true,
     logo: brands("react"),
-    dates: { from: "Jan 2023", to: "May 2024" },
+    dates: { from: "Aug 2022", to: "Sep 2023" },
     description: "React, Hooks, Redux, React Router, Next.js",
   },
 

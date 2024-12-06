@@ -1,5 +1,3 @@
-import styles from "./Skills.module.scss";
-
 export const Skills = () => {
   const skills = [
     "React",
@@ -19,7 +17,7 @@ export const Skills = () => {
   return (
     <div>
       <h3>Skills</h3>
-      <p className={styles.copy}>{skills.join(", ")}</p>
+      <p>{skills.join(", ")}</p>
     </div>
   );
 };

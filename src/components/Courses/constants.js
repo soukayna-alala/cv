@@ -42,7 +42,7 @@ export const DATA = [
     title: "Build Responsive Real-World Websites with HTML and CSS ",
     hasIcon: true,
     logo: brands("css3"),
-    dates: { from: "March 2022", to: "Aug 2022" },
+    dates: { from: "Aug 2022", to: "Oct 2022" },
     description:
       "Modern HTML5, CSS3 and web design by building stunning websites. Includes flexbox and CSS Grid",
   },
@@ -51,7 +51,7 @@ export const DATA = [
     title: "HTML Email Mastery - Build Responsive HTML Email Templates",
     hasIcon: true,
     logo: brands("html5"),
-    dates: { from: "Aug 2022", to: "Oct 2022" },
+    dates: { from: "March 2022", to: "Aug 2022" },
     description:
       "Intro to HTML emails, document type & meta tags, outlook conditional statement, multi-Column table layouts",
   },

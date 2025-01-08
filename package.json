@@ -9,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "generate-pdf-cv": "electron-pdf --pageSize A4 --marginsType 0 http://localhost:5173/ ./Soukayna-Alala-Junior-Front-End-Developer.pdf --waitForJSEvent"
+    "generate-pdf-cv:front-end": "electron-pdf --pageSize A4 --marginsType 0 http://localhost:5173/ ./Soukayna-Alala-Junior-Front-End-Developer.pdf --waitForJSEvent",
+    "generate-pdf-cv:customer-service": "electron-pdf --pageSize A4 --marginsType 0 http://localhost:5173/ ./Soukayna-Alala-Customer-Service-Assistant.pdf --waitForJSEvent"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",

@@ -1,7 +1,8 @@
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { LinksListItem } from "../shared/LinksListItem/LinksListItem.jsx";
 import styles from "./Header.module.scss";
-import { EMAIL, JOB_TITLE, NAME } from "./constants.js";
+import { EMAIL, NAME } from "./constants.js";
+import { JOB_TITLE } from "../../constants";
 
 const { avatar, header, list } = styles;
 

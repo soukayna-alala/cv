@@ -1,4 +1,4 @@
-import { JOB_TITLE } from "../Header/constants";
+import { JOB_TITLE } from "../../constants";
 
 export const Profile = () => {
   return (

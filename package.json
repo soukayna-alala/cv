@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
-    "dev": "vite",
+    "dev:front-end": "VITE_IS_DEV_CV=true vite",
+    "dev:customer-service": "VITE_IS_DEV_CV=false vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",

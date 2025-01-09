@@ -1,25 +1,26 @@
 export const DATA = [
-  {
-    id: 2,
-    title: "Redbridge Institute Of Adult Education",
-    logo: "./education/redbridge-institute-of-adult-education.png",
-    dates: { from: "April 2023", to: "July 2024" },
-    description: "ESOL Level 1 - (Speaking and listening)",
-  },
+  // {
+  //   id: 2,
+  //   title: "Redbridge Institute Of Adult Education",
+  //   logo: "./education/redbridge-institute-of-adult-education.png",
+  //   dates: { from: "April 2023", to: "July 2024" },
+  //   description: "ESOL Level 1 - (Speaking and listening)",
+  // },
   {
     id: 1,
     title: "Redbridge Institute Of Adult Education",
     logo: "./education/redbridge-institute-of-adult-education.png",
-    dates: { from: "Sep 2022", to: "June 2023" },
-    description: "ESOL entry Level 3 - (Reading and Writing)",
+    dates: { from: "Sep 2022", to: "June 2025" },
+    description:
+      "(ESOL entry Level 3 - Reading and Writing), (ESOL Level 1 - Speaking and Listening), (ESOL Level 1 - Reading and Writing)",
   },
   {
-    id: 3,
+    id: 2,
     title: "Tariq Iban Ziyad Secondary School (Morocco)",
     logo: "./education/tariq-iban-ziyad-school.png",
     dates: { from: "Sep 2011", to: "June 2016" },
     description:
-      "I.T, Science, Maths, Physics, English, French, History, Philosophy, Arabic",
+      "I.T, Science, Maths, Physics, English, French, Arabic, History, Philosophy",
   },
   // ,
   // {

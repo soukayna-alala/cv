@@ -11,8 +11,11 @@ export const DATA = [
     title: "Redbridge Institute Of Adult Education",
     logo: "./education/redbridge-institute-of-adult-education.png",
     dates: { from: "Sep 2022", to: "June 2025" },
-    description:
-      "(ESOL entry Level 3 - Reading and Writing), (ESOL Level 1 - Speaking and Listening), (ESOL Level 1 - Reading and Writing)",
+    list: [
+      "ESOL entry Level 3 - Reading and Writing",
+      "ESOL Level 1 - Speaking and Listening",
+      "ESOL Level 1 - Reading and Writing",
+    ],
   },
   {
     id: 2,

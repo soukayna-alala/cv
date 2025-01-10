@@ -17,14 +17,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className={gridContainer}>
-        <div>
-          {IS_DEV_CV ? <Profile /> : <CustomerProfile />}
-          <Profile />
-        </div>
-        <div>
-          <FindMeOnline />
-        </div>
+      <div className={IS_DEV_CV ? gridContainer : null}>
+        <div>{IS_DEV_CV ? <Profile /> : <CustomerProfile />}</div>
+        <div>{IS_DEV_CV ? <FindMeOnline /> : null}</div>
       </div>
       {IS_DEV_CV ? <Skills /> : <Customerskills />}
       {IS_DEV_CV ? <Courses /> : <CustomerCourses />}

@@ -1,13 +1,14 @@
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { LinksListItem } from "../shared/LinksListItem/LinksListItem.jsx";
 import styles from "./Header.module.scss";
-import { EMAIL, NAME } from "./constants.js";
-import { JOB_TITLE } from "../../constants";
+import { DEVELOPER_EMAIL, NAME, CUSTOMER_EMAIL } from "./constants.js";
+import { IS_DEV_CV, JOB_TITLE } from "../../constants";
 
 const { avatar, header, list } = styles;
 
 export const Header = () => {
   const mobileNo = "07496 322 120";
+  const email = IS_DEV_CV ? DEVELOPER_EMAIL : CUSTOMER_EMAIL;
   const linksList = [
     {
       href: `tel:${mobileNo}`,
@@ -15,9 +16,9 @@ export const Header = () => {
       label: mobileNo,
     },
     {
-      href: `mailto:${EMAIL}?subject=${JOB_TITLE}`,
+      href: `mailto:${email}?subject=${JOB_TITLE}`,
       icon: solid("envelope"),
-      label: EMAIL,
+      label: email,
     },
     {
       href: "https://tinyurl.com/tepxxtd",

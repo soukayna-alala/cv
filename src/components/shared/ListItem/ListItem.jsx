@@ -1,31 +1,58 @@
-import styles from "../../Courses/ListItem.module.scss";
+import styles from "./ListItem.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 
-export const ListItem = (props) => {
+export const ListItem = ({
+  id,
+  logo,
+  title,
+  dates,
+  description,
+  hasIcon,
+  list,
+}) => {
+  const {
+    item,
+    ulList,
+    titleContainer,
+    icon,
+    img,
+    heading,
+    term,
+    calendar,
+    copy,
+  } = styles;
+
   return (
-    <li className={styles.item} key={props.id}>
-      <div className={`grid ${styles.titleContainer}`}>
-        {props.hasIcon ? (
-          <FontAwesomeIcon className={styles.icon} icon={props.logo} />
+    <li className={item} key={id}>
+      <div className={`grid ${titleContainer}`}>
+        {hasIcon ? (
+          <FontAwesomeIcon className={icon} icon={logo} />
         ) : (
-          <img className={styles.logo} src={props.logo} alt={props.logo} />
+          <img className={img} src={logo} alt={logo} />
         )}
 
         <div>
-          <div className={`grid ${styles.title} justifySpaceBetween`}>
-            <h4>{props.title}</h4>
+          <div className={`grid ${heading} justifySpaceBetween`}>
+            <h4>{title}</h4>
             <div>
               <FontAwesomeIcon
-                className={styles.calendar}
+                className={calendar}
                 icon={regular("calendar-alt")}
               />
-              <strong className={styles.dates}>
-                {props.dates.from} - {props.dates.to}
+              <strong className={term}>
+                {dates.from} - {dates.to}
               </strong>
             </div>
           </div>
-          <p className={styles.copy}>{props.description}</p>
+          {description ? <p className={copy}>{description}</p> : null}
+          {list ? (
+            <ul className={ulList}>
+              {list.map((i) => {
+                return <li key={i}>{i}</li>;
+              })}
+            </ul>
+          ) : null}
         </div>
       </div>
     </li>

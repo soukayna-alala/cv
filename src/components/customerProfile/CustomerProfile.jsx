@@ -2,7 +2,7 @@ import { JOB_TITLE } from "../../constants";
 
 export function CustomerProfile() {
   return (
-    <>
+    <div>
       <h3>Profile</h3>
       <p>
         <strong>{JOB_TITLE}</strong> based in London seeking new role.
@@ -12,6 +12,6 @@ export function CustomerProfile() {
         experience for customers. Eager to contribute to a team and grow
         professionally.
       </p>
-    </>
+    </div>
   );
 }

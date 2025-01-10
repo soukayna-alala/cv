@@ -1,12 +1,12 @@
 import styles from "./CustomerCourses.module.scss";
 
 export function CustomerCourses() {
-  const { bold } = styles;
+  const { bold, richardsCourse, profileContainer } = styles;
 
   return (
-    <div>
+    <div className={profileContainer}>
       <h3>Courses</h3>
-      <div>
+      <div className={richardsCourse}>
         <span className={bold}>
           Customer Service Training Course By Richard McMunn:
         </span>
@@ -17,7 +17,7 @@ export function CustomerCourses() {
       </div>
       <div>
         <span className={bold}>
-          Business English Masterclass training course By Gerard Aherne:
+          MASTER BUSINESS English COMMUNICATION Skills by Aherne:
         </span>
         Understanding an Angry Customer. Handling Complaints and Calming the
         Situation. Dealing Politely with Rude Customers. Explaining Bad News to

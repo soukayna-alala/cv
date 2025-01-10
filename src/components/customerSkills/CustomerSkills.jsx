@@ -1,4 +1,8 @@
-export const Customerskills = () => {
+import styles from "./customerSkills.module.scss";
+
+export const CustomerSkills = () => {
+  const { listOfSkills } = styles;
+
   const skills = [
     "Strong customer service and interpersonal skills",
     "Proficient in cash handling and operating POS systems",
@@ -13,7 +17,13 @@ export const Customerskills = () => {
   return (
     <div>
       <h3>Skills</h3>
-      <p>{skills.join(". ")}</p>
+      <ul>
+        {skills.map((skill, index) => (
+          <li key={index} className={listOfSkills}>
+            {skill}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

@@ -9,7 +9,7 @@ import { Courses } from "./components/Courses/Courses";
 import { Education } from "./components/Education/Education";
 import { IS_DEV_CV } from "./constants";
 import { CustomerCourses } from "./components/customerCourses/CustomerCourses";
-import { Customerskills } from "./components/customerSkills/Customerskills";
+import { CustomerSkills } from "./components/customerSkills/CustomerSkills";
 import { CustomerProfile } from "./components/customerProfile/CustomerProfile";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <div>{IS_DEV_CV ? <Profile /> : <CustomerProfile />}</div>
         <div>{IS_DEV_CV ? <FindMeOnline /> : null}</div>
       </div>
-      {IS_DEV_CV ? <Skills /> : <Customerskills />}
+      {IS_DEV_CV ? <Skills /> : <CustomerSkills />}
       {IS_DEV_CV ? <Courses /> : <CustomerCourses />}
       <Languages />
       <Education />

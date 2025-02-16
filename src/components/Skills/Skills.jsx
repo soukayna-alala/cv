@@ -1,17 +1,14 @@
 export const Skills = () => {
   const skills = [
     "React",
-    "React Hook Form",
-    "React Hooks",
+    "Node.js",
     "Typescript",
     "JavaScript",
-    "HTML",
-    "HTML Emails",
+    "HTML5",
     "CSS",
-    "Media Queries",
     "Git",
-    "Bootstrap",
     "Vite.",
+    "Vitest",
   ];
 
   return (
